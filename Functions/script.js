@@ -79,7 +79,7 @@
 // 5 Higher oeder Functions 
 
 
-  const sxc = function (){
-return console.log("hetbn46j")
+const sxc = function () {
+   return function () { console.log("hetbn46j") }
 }
 sxc();
