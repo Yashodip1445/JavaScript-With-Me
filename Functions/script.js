@@ -29,12 +29,12 @@
 
 // 3 Return Value
 
-function ABCD(v){
-   return  12 + v;
+// function ABCD(v){
+//    return  12 + v;
 
-}
- let val = ABCD(13);
-console.log(val)
+// }
+//  let val = ABCD(13);
+// console.log(val)
 
 // Early return - > yashodip hey [ nested if] medhe use hot 
 // bad code
@@ -64,3 +64,22 @@ console.log(val)
 
 
 
+// 4 First class Function  -> Variable store , passed , argumet , return , store array and objects
+//  function greet(name) {
+//     console.log("Hello " + name);
+// }
+
+// function execute(fnc) {
+//     fnc("Yashodip");
+// }
+
+// execute(greet);
+
+
+// 5 Higher oeder Functions 
+
+
+  const sxc = function (){
+return console.log("hetbn46j")
+}
+sxc();
