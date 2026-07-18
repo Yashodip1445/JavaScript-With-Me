@@ -33,3 +33,16 @@ let newNums = nums.map(function(num) {
     return num-70;
 });
 console.log(newNums)
+
+// Fillter 
+
+
+// Reduce 
+
+let sum = nums.reduce(function(acc, num) {
+    return acc+num;
+});
+console.log(sum)
+
+
+
