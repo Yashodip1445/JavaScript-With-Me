@@ -1,6 +1,6 @@
 let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-console.log(array)
+// console.log(array)
 
 // push  
 // array.push(11)
@@ -18,3 +18,18 @@ console.log(array)
 // shift
 // array.shift()
 // console.log(array)
+
+// ForEach 
+
+const nums = [10, 40, 50 , 70];
+
+nums.map(function(num) {
+    console.log(num)
+});
+console.log(nums)
+
+// map 
+let newNums = nums.map(function(num) {
+    return num-70;
+});
+console.log(newNums)
