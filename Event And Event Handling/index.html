@@ -1,14 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event and Event Handling </title>
 </head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: borde-box ;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(195, 231, 183);
+
+}
+    #main{
+
+        width: 100%;
+        height: 100%;
+        background-color: #222;
+        font-family: Georgia, serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h4{
+        color: rgb(61, 131, 192);
+        font-size: 10rem;
+        font-weight: 300;
+        user-select: none;
+    }
+    input{
+        display: none;
+
+    }
+    #sham{
+        
+    }
+    #btn{
+        padding: 12px 22px;
+        background-color: rgb(41, 143, 114);
+        color: rgb(233, 230, 230);
+        font-weight: 600;
+        border-radius : 5px;
+
+
+
+
+    }
+    #sham #btn:hover{
+        background-color: rgb(24, 82,66);
+    }
+</style>
+
 <body>
     <h1>The Event & Event Handling</h1>
 
-    <input type="text" placeholder="Name"> 
+    <input type="text" placeholder="Name">
+
+    <div>
+        <hr>
+
+     <h1 id="device">Select Your Device</h1>
+        <select>
+            <option selected disabled>Select Your Device </option>
+            <option value="Apple">Apple</option>
+            <option value="Vivo">Vivo</option>
+            <option value="Samsung">Samsung </option>
+            <option value="Xiaomi">MI</option>
+
+        </select>
+    </div>
+
+<hr>
+
+
+<div id="main">
+   
+<h4>Yasho</h4>
+    
+</div>
+
+<hr>
+
+<div id=" sham">
+    
+    <input id="fileinp" type="file">
+    <div id="btn">upload file</div>
+</div>
+
+<h1>2.46 time </h1>
+
     <Script src="script.js"></Script>
-</body> 
+</body>
+
 </html>
