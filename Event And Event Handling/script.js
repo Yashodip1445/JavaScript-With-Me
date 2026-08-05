@@ -46,3 +46,30 @@ fileinp.addEventListener("change", function(dets){
 })
 
 
+// From submit 
+
+
+let fromsum= document.querySelector("form");
+let iput= document.querySelectorAll("input");
+
+fromsum.addEventListener('submit', function(dets){
+    dets.preventDefault();
+
+let card = document.createElement("div");
+card.classList.add("card");
+
+let profile = document.createElement("div");
+profile.classList.add("Profile")
+
+})
+
+
+let abcd= document.querySelector("#abcd")
+abcd.addEventListener('mouseover', function(){
+    abcd.style.backgroundColor = " green"
+});
+
+
+abcd.addEventListener("mouseout", function(){
+    abcd.style.backgroundColor = "blue"
+})

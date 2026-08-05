@@ -5,20 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event and Event Handling </title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <style>
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: borde-box ;
-}
-html, body{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(195, 231, 183);
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: borde-box;
+    }
 
-}
-    #main{
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(195, 231, 183);
+
+    }
+
+    #main {
 
         width: 100%;
         height: 100%;
@@ -28,73 +32,128 @@ html, body{
         align-items: center;
         justify-content: center;
     }
-    h4{
+
+    #sum {
+
+        width: 100%;
+        height: 100%;
+        background-color: #233f3a;
+        font-family: Georgia, serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h4 {
         color: rgb(61, 131, 192);
         font-size: 10rem;
         font-weight: 300;
         user-select: none;
     }
-    input{
-        display: none;
+
+    input {
+        /* display: none; */
+        display: block;
 
     }
-    #sham{
-        
-    }
-    #btn{
+
+
+    #btn {
         padding: 12px 22px;
         background-color: rgb(41, 143, 114);
         color: rgb(233, 230, 230);
         font-weight: 600;
-        border-radius : 5px;
+        border-radius: 5px;
 
 
 
 
     }
-    #sham #btn:hover{
-        background-color: rgb(24, 82,66);
+
+    #sham #btn:hover {
+        background-color: rgb(24, 82, 66);
     }
 </style>
 
+<!-- This is Html  
+ BODY  
+-->
+
 <body>
     <h1>The Event & Event Handling</h1>
-
     <input type="text" placeholder="Name">
-
     <div>
+
         <hr>
 
-     <h1 id="device">Select Your Device</h1>
+        <h1 id="device">Select Your Device</h1>
         <select>
             <option selected disabled>Select Your Device </option>
             <option value="Apple">Apple</option>
             <option value="Vivo">Vivo</option>
             <option value="Samsung">Samsung </option>
             <option value="Xiaomi">MI</option>
-
         </select>
     </div>
 
-<hr>
+    <hr>
+    <div id="main">
+        <h4>Yasho</h4>
+    </div>
 
+    <hr>
 
-<div id="main">
+    <div id=" sham">
+        <input id="fileinp" type="file">
+        <div id="btn">upload file</div>
+    </div>
+
+    <br>
+    <div id="sum">
+        <!-- Fixed the typo from 'from' to 'form' and added an id -->
+        <form action="">
+            <input type="text" placeholder="name ">
+            <input type="text" placeholder="age  ">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Profile pic ">
+            <input type="submit">
+        </form>
+
+        <div id="card">
+<div class="Profile">
+    <img src="https://images.unsplash.com/photo-1779896412393-25bb58f05547?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    
+</div>
+<h3>Yashodip</h3>
+    <h5>Creative code</h5>
+    <p>Alias doloribus magni ad asperiores!</p>
+    </div>
+    </div>
+    
+
    
-<h4>Yasho</h4>
-    
-</div>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, esse fugiat eum praesentium deleniti mollitia
+        earum voluptas hic porro repellat aliquid natus quod suscipit officia maxime dignissimos. Dolore, natus ut.
+        Culpa quia perspiciatis sed tenetur officiis sint dolorum sapiente quibusdam consequuntur deleniti? Tempore
+        inventore obcaecati cumque eum non, in minima assumenda hic dolorem quas ad ipsum porro. Praesentium,
+        dolorem deleniti!
+        Amet impedit at unde molestias tempore, assumenda, rerum pariatur, placeat temporibus iste doloribus illo
+        consectetur corrupti. Velit quo pariatur est nemo similique, cum laudantium qui possimus aliquam nesciunt,
+        ullam blanditiis?
+        Recusandae quisquam culpa unde cum eaque cupiditate, facilis voluptates incidunt libero excepturi amet
+        tempore minus nesciunt itaque quo. Assumenda, hic reiciendis! Eum, illum obcaecati quia architecto maxime
+        earum provident ducimus!
+        Temporibus possimus ea nisi sit impedit autem, ab quis quod aperiam beatae doloremque numquam facilis
+        deserunt veritatis sed deleniti repellendus cupiditate adipisci officiis velit eius obcaecati. Commodi,
+        minus perspiciatis. Dolor.</p>
 
-<hr>
 
-<div id=" sham">
-    
-    <input id="fileinp" type="file">
-    <div id="btn">upload file</div>
-</div>
+        <br>
 
-<h1>2.46 time </h1>
-
+        <div id="abcd">
+            
+        </div>
     <Script src="script.js"></Script>
 </body>
 
