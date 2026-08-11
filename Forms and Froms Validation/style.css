@@ -1,0 +1,21 @@
+html body {
+    background-color: rgba(0, 0, 0, 0.937);
+}
+
+body {
+    color: rgb(34, 130, 214);
+}
+
+h1 {
+    color: rgb(163, 198, 47);
+}
+
+small {
+    color: rgb(129, 26, 26);
+    font-size: xx-small;
+
+}
+
+#hide {
+    display: none;
+}
