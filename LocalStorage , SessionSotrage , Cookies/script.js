@@ -1,1 +1,1 @@
-localStorage.getItem("name")
+localStorage
